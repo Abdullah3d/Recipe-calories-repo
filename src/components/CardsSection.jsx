@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from './Sidebar'
 import Card from './Card'
 
-const CardsSection = () => {
+const CardsSection = ({dates}) => {
     return (
         <div className='grid gap-24 mt-24'>
             <div className='text-center grid gap-4'>
@@ -10,8 +10,23 @@ const CardsSection = () => {
                 <p>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget <br /> urna volutpat curabitur elementum mauris aenean neque.</p>
             </div>
 
-            <div>
-                <Card />
+            <div className='flex gap-10'>
+                <div className='grid grid-cols-2 gap-[24px]'>
+                    {
+                      dates.map((data)=>(
+                        <Card
+                          key={data.id}
+                          name={data.name}
+                          img={data.image}
+                          des={data.description}
+                          time={data.time}
+                          clo={data.Calories}
+                          ingre={data.Ingredients}
+
+                        />
+                      ))
+                    }
+                </div>
                 <Sidebar />
             </div>
         </div>

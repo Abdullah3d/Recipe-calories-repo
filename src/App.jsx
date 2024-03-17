@@ -4,26 +4,29 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import CardsSection from './components/CardsSection';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [dates, setDates] = useState([])
 
   
     const fetchData = async () => {
       try {
-        const response = await fetch('/cards_data.json'); // Assuming data.json is in public folder
+        const response = await fetch('/cards_data.json');
         const jsonData = await response.json();
-        console.log(jsonData);
+        setDates(jsonData);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        toast.error(error)
       }
     };
 
     fetchData();
+    // console.log(dates)
   return (
     <div className='px-12'>
       <Navbar />
       <Banner />
-      <CardsSection/>
+      <CardsSection dates={dates} />
     
       <h1 className="text-3xl font-bold underline">
         Hello world!
