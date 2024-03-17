@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Card = () => {
   return (
-    <div className='p-5 grid gap-5'>
+    <div className='p-5 grid gap-5 border'>
       <div className='grid gap-4'>
         <img src="https://i.ibb.co/GCbFWhV/Rectangle-20170.png" alt="" />
         <h2 className='text-2xl font-bold'>Spaghetti Bolognese</h2>

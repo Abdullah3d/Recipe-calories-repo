@@ -1,0 +1,64 @@
+
+[
+    {
+        "image":"https://i.ibb.co/GCbFWhV/Rectangle-20170.png",
+        "id":1,
+        "name":"Spaghetti Bolognese",
+        "description":" Classic Italian pasta dish with savory meat sauce.",
+        "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
+        "time":"30 Minutes",
+        "Calories":"600 calories "
+        
+
+    },
+    {
+        "image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/udang-masak-kemangi-shrimp-with-sambal-basil/UDANG_MASAK_KEMANGI_article_1920x1280_4.jpg.transform/slider-small-thumb/img.jpg",
+        "id":2,
+        "name":"Udang Masak Kemangi",
+        "description":" Classic Italian pasta dish with savory meat sauce.",
+        "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
+        "time":"30 Minutes",
+        "Calories":"600 calories "
+
+    },
+    {
+        "image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/ayam-pongteh/AFN_ayam_pongteh_main_image.jpg.transform/overview-img/img.jpg",
+        "id":3,
+        "name":"Ayam Pongteh",
+        "description":" Classic Italian pasta dish with savory meat sauce.",
+        "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
+        "time":"30 Minutes",
+        "Calories":"600 calories "
+
+    },
+    {
+        "image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/bika-ambon-honeycomb-cake/BIKA_AMBON_Article_1920x1280_6.jpg.transform/desktop-img/img.jpg",
+        "id":4,
+        "name":"Bika Ambon",
+        "description":" Classic Italian pasta dish with savory meat sauce.",
+        "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
+        "time":"30 Minutes",
+        "Calories":"600 calories "
+
+    },
+    {
+        "image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/steam-garlic-prawns/AFN_steam_garlic_prawns_main_image2.jpg.transform/overview-img/img.jpg",
+        "id":5,
+        "name":"Steamed Garlic Prawns",
+        "description":" Classic Italian pasta dish with savory meat sauce.",
+        "Ingredients": ["1 kg shrimp","7 g salt","15 g garlic"],
+        "time":"30 Minutes",
+        "Calories":"600 calories "
+
+    },
+    {
+        "image":"https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/kuay-tiew-gai-ma-ra-chicken-noodle-soup-with-bitter-gourd/Chicken_Noodle_Soup_with_Bitter_Gourd_Kuay_Tiew_Gai_Ma_Ra_article_1920x1280_Beauty1.jpg.transform/desktop-img/img.jpg",
+        "id":6,
+        "name":"Kuay Tiew Gai Ma Ra ",
+        "description":" Classic Italian pasta dish with savory meat sauce.",
+        "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
+        "time":"30 Minutes",
+        "Calories":"600 calories "
+
+    }
+]
