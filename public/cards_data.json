@@ -6,8 +6,8 @@
         "name":"Spaghetti Bolognese",
         "description":" Classic Italian pasta dish with savory meat sauce.",
         "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
-        "time":"30 Minutes",
-        "Calories":"600 calories "
+        "time":30,
+        "Calories":600
         
 
     },
@@ -17,8 +17,8 @@
         "name":"Udang Masak Kemangi",
         "description":" Classic Italian pasta dish with savory meat sauce.",
         "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
-        "time":"30 Minutes",
-        "Calories":"600 calories "
+        "time":35,
+        "Calories":700
 
     },
     {
@@ -27,8 +27,8 @@
         "name":"Ayam Pongteh",
         "description":" Classic Italian pasta dish with savory meat sauce.",
         "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
-        "time":"30 Minutes",
-        "Calories":"600 calories "
+        "time":32,
+        "Calories":720
 
     },
     {
@@ -37,8 +37,8 @@
         "name":"Bika Ambon",
         "description":" Classic Italian pasta dish with savory meat sauce.",
         "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
-        "time":"30 Minutes",
-        "Calories":"600 calories "
+        "time":34,
+        "Calories":710
 
     },
     {
@@ -47,8 +47,8 @@
         "name":"Steamed Garlic Prawns",
         "description":" Classic Italian pasta dish with savory meat sauce.",
         "Ingredients": ["1 kg shrimp","7 g salt","15 g garlic"],
-        "time":"30 Minutes",
-        "Calories":"600 calories "
+        "time":40,
+        "Calories": 800
 
     },
     {
@@ -57,8 +57,8 @@
         "name":"Kuay Tiew Gai Ma Ra ",
         "description":" Classic Italian pasta dish with savory meat sauce.",
         "Ingredients": [ "1 kg shrimp","7 g salt","15 g garlic"],
-        "time":"30 Minutes",
-        "Calories":"600 calories "
+        "time":25,
+        "Calories": 550
 
     }
 ]

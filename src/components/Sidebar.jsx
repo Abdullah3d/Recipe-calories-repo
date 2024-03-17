@@ -20,6 +20,7 @@ const Sidebar = ({ cock }) => {
         setCocking([...cooking, info])
         deleteRecipeById(e.id)
     }
+    // console.log(cooking);
 
     return (
         <div className='sticky top-24'>
@@ -83,10 +84,18 @@ const Sidebar = ({ cock }) => {
                                     </tr>
                                 ))
                             }
-                            
+
                         </tbody>
+
+
                     </table>
                 </div>
+            </div>
+            <div className='text-xl font-semibold mt-10'>
+                <h1>Total time: {cooking.reduce((total, item) => total + item.time, 0)}  </h1>
+
+                <h1>Total calories:  {cooking.reduce((total, item) => total + item.clo, 0)}</h1>
+
 
             </div>
         </div>
