@@ -28,8 +28,7 @@ const Sidebar = ({ cock }) => {
                                         <td>{item.name}</td>
                                         <td>{item.time}</td>
                                         <td>{item.clo}</td>
-                                        <td>  <button className="btn btn-accent btn-sm">Accent</button>
-                                        </td>
+                                        <td><button className="btn btn-accent btn-sm">preparing</button></td>
 
                                     </tr>
                                 ))

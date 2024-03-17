@@ -14,7 +14,7 @@ const Banner = () => {
                 <p>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+<br /> coding problems to become an exceptionally well world-class Programmer.</p>
             </div>
             <div className='flex gap-8 font-semibold'>
-                <button className="btn btn-active btn-success rounded-full text-black">Explore Now</button>
+                <button className="btn btn-active btn-accent rounded-full text-black">Explore Now</button>
                 <button className=" btn btn-outline text-white btn-ghost rounded-full">Our Feedback</button>
             </div>
 

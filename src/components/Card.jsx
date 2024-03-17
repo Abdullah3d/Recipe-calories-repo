@@ -23,7 +23,6 @@ const Card = ({ ingre, clo, time, des, img, name, setCock, id, cock }) => {
       }
 
       setCock([...cock, info])
-      toast.success("Successfully added for cook")
     }
     else {
       toast.error("Already added for cook")
