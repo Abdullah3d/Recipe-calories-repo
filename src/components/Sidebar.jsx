@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Sidebar = () => {
+const Sidebar = ({ cock }) => {
+
     return (
-        <div className='sticky top-[400px]'>
+        <div className='sticky top-8'>
 
             <div>
-                <h1 className='text-3xl font-bold text-center'> Want to cook: 01</h1>
+                <h1 className='text-3xl font-bold text-center'> Want to cook: {cock.length}</h1>
                 <div className="overflow-x-auto">
                     <table className="table table-zebra">
                         {/* head */}
@@ -15,17 +16,23 @@ const Sidebar = () => {
                                 <th>Name</th>
                                 <th>Time</th>
                                 <th>Calories</th>
+                                <th> {"  "}</th>
                             </tr>
                         </thead>
                         <tbody>
                             {/* row 1 */}
                             {
-                                <tr>
-                                    <th>1</th>
-                                    <td>Cy Ganderton</td>
-                                    <td>Quality Control Specialist</td>
-                                    <td>Blue</td>
-                                </tr>
+                                cock.map((item, index) => (
+                                    <tr>
+                                        <th>{index}</th>
+                                        <td>{item.name}</td>
+                                        <td>{item.time}</td>
+                                        <td>{item.clo}</td>
+                                        <td>  <button className="btn btn-accent btn-sm">Accent</button>
+                                        </td>
+
+                                    </tr>
+                                ))
                             }
 
                         </tbody>

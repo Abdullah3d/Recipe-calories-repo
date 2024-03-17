@@ -10,17 +10,20 @@ function App() {
   const [dates, setDates] = useState([])
 
   
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/cards_data.json');
-        const jsonData = await response.json();
-        setDates(jsonData);
-      } catch (error) {
-        toast.error(error)
-      }
-    };
+useEffect(() => {
+  const fetchData = async () => {
+    try {
+      const response = await fetch('/cards_data.json');
+      const jsonData = await response.json();
+      setDates(jsonData);
+    } catch (error) {
+      toast.error(error)
+    }
+  };
 
-    fetchData();
+  fetchData();
+}, [])
+
     // console.log(dates)
   return (
     <div className='px-12'>
@@ -31,6 +34,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
+      <ToastContainer/>
     </div>
   )
 }
